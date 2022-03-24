@@ -240,10 +240,9 @@ h2 {
    text-align: center;
    position: static;
    color: white;
-   font-size: 17px;
+   font-size: 23px;
    font-weight: 400;
-   
-
+   max-height:2px;
 } .creditos span {
      margin-right: none;
     }
@@ -251,9 +250,7 @@ h2 {
       margin-top: 20px;
       position: none;
       top: none;
-      max-height: 70px;
-      max-width: 70px;
-}
+    }
 
 /* animation-name: spin;
   animation-duration: 5000ms;
