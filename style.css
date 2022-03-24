@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 400px;
+  background: linear-gradient(-45deg, #041832 27.49%, #3468a7 83.19%);
+  background-size: 400% 400%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  animation: change 10s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 13px;
+  border-radius: 6px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+label {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  animation: cool 4s linear infinite;
+}
+@keyframes cool {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: rotate(2deg);
+  }
+
+  66% {
+    transform: rotate(-2deg);
+  }
+}
+
+.button-58 {
+  align-items: center;
+  background-color: #0b8ecb;
+  border: 2px solid #0b8ecb;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-58:focus {
+  color: #171e29;
+}
+
+.button-58:hover {
+  background-color: #04c6ff;
+  border-color: #04c6ff;
+  fill: #06f;
+  animation: test 0.5s linear;
+}
+@keyframes test {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0px, -1px);
+  }
+
+  80% {
+    transform: translate(0px, -1px);
+  }
+}
+
+.button-58:active {
+  background-color: #3385ff;
+  border-color: #3385ff;
+  fill: #06f;
+  animation: test2 0.5s linear;
+}
+@keyframes test2 {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0px, 2px);
+  }
+
+  80% {
+    transform: translate(0px, 2px);
+  }
+}
+
+@media (min-width: 768px) {
+  .button-58 {
+    min-width: 170px;
+  }
+}
+.quadradoBranco {
+  background: #cddde2;
+  align-self: center;
+  border-radius: 40px;
+  height: 400px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.conteudo {
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.brazil {
+  max-height: 60px;
+  max-width: 60px;
+  position: relative;
+  top: 30px;
+  left: -40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 70px;
+}
+.eua {
+  max-height: 60px;
+  max-width: 60px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 70px;
+}
+.arrow {
+  position: relative;
+  top: -30px;
+  animation: nudge 2s linear infinite;
+}
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(5px, 0px);
+  }
+
+  80% {
+    transform: translate(0px, 0px);
+  }
+} .creditos a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+.creditos a:hover {
+    color: cyan;
+}
+.creditos img {
+    position: relative;
+    top: -10px;
+    width: 126px;
+    height: auto;
+} .creditos {
+  margin: 40px 4%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: static;
+  color: white;
+  font-size: 17px;
+  font-weight: 400;
+  
+
+} .creditos span {
+    margin-right: none;
+   }
+   .creditos img {
+     margin-top: 20px;
+     position: none;
+     top: none;
+     max-height: 70px;
+     max-width: 70px;
+}
+
+/* animation-name: spin;
+  animation-duration: 5000ms;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+} */
