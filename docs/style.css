@@ -242,7 +242,7 @@ h2 {
    color: white;
    font-size: 23px;
    font-weight: 400;
-   bottom: 200px;
+   max-height:2px;
 } .creditos span {
      margin-right: none;
     }
